@@ -3,9 +3,9 @@ package me.dio.web.padroesprojetospring.repositories;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
-import me.dio.web.padroesprojetospring.model.Cliente;
+import me.dio.web.padroesprojetospring.model.Endereco;
 
 @Repository
-public interface ClienteRepository extends CrudRepository<Cliente, Long> {
+public interface EnderecoRepository extends CrudRepository<Endereco, String> {
 
 }
